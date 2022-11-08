@@ -22,6 +22,7 @@ export async function addCliente (datos) {
             }
         });
         await response.json();
+        console.log("🚀 ~ addCliente ~ response.json()", response.json());
     } catch (error) {
         console.log("🚀 ~ addCliente ~ error", error);
     }

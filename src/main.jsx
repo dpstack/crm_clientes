@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home />, loader: ClientesLoader, errorElement: <Error /> },
       { 
-        path: '/clientes/nuevo', element: <NuevoCliente />, 
+        path: '/clientes/nuevo', element: <NuevoCliente />,
         action: AgregarClientesAction, errorElement: <Error /> 
       },
       { 
