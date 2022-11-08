@@ -1,4 +1,4 @@
-const url = import.meta.env.VITE_API_URL;
+const url = 'https://my-json-server.typicode.com/dpstack/crm_clientes/clientes';
 
 export async function getClientes () {
     const response = await fetch(url);
